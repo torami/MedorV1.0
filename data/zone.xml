@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zones>
+	<zone>
+		<id>1</id>
+		<nom>Salon</nom>
+	</zone>
+	<zone>
+		<id>2</id>
+		<nom>Chambre 1</nom>
+	</zone>
+	<zone>
+		<id>3</id>
+		<nom>Chambre 2</nom>
+	</zone>
+	<zone>
+		<id>4</id>
+		<nom>Cuisine</nom>
+	</zone>
+	<zone>
+		<id>5</id>
+		<nom>Sdb</nom>
+	</zone>
+</zones>

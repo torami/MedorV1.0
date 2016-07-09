@@ -1,0 +1,18 @@
+<div style="width:250px;margin:auto;padding:auto;">
+<h1>Actions</h1>
+<h2>Ajouter un utilisateur</h2>
+<form method="post" enctype="application/x-www-form-urlencoded" action="/user/create">
+    <fieldset>
+        <legend>Informations personnelles</legend>
+        <dl>
+        <dt><label for="form_login">Login : </label></dt>
+        <dd><input type="text" id="form_login" name="login" /></dd>
+        <dt><label for="form_firstname">Prénom : </label></dt>
+        <dd><input type="text" id="form_firstname" name="firstname" /></dd>
+        <dt><label for="form_lastname">Nom : </label></dt>
+        <dd><input type="text" id="form_lastname" name="lastname" /></dd>
+        </dl>
+	<input type="submit" name="submit" />
+    </fieldset>
+</form>
+</div>

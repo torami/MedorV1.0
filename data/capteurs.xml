@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<capteurs>
+    <capteur>
+        <id>Salon@Mouvement</id>
+        <type>Mouvement</type>
+        <etat>1</etat>
+        <emplacement>Salon</emplacement>
+    </capteur>
+    <capteur>
+        <id>Cuisine@Mouvement</id>
+        <type>Mouvement</type>
+        <etat>0</etat>
+        <emplacement>Cuisine</emplacement>
+    </capteur>
+</capteurs>

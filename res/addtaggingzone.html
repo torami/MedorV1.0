@@ -1,0 +1,20 @@
+<div style="width:250px;margin:auto;padding:auto;">
+<h1>Actions</h1>
+<h2>Ajouter une affectation</h2>
+<form method="post" enctype="application/x-www-form-urlencoded" action="/taggings/create">
+    <fieldset>
+        <legend>Information Affectations</legend>
+        <dl>
+        <dt><label for="form_capteur">Capteur_id : </label></dt>
+        <dd><input type="text" id="form_capteur" name="capteur" /></dd>
+        </dl> <dl>
+        <dt><label for="form_issue">issue </label></dt>
+        <dd><input type="text" id="form_issue" name="issue" /></dd>
+        </dl> <dl>
+        <dt><label for="emplacement">Espace</label></dt>
+        <dd><input type="text" id="form_emplacement" name="emplacement" /></dd>
+        </dl>
+	<input type="submit" name="submit" />
+    </fieldset>
+</form>
+</div>

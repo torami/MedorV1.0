@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+	<user>
+		<id>fgandon</id>
+		<login>fgandon</login>
+		<password>admin</password>
+		<lastname>Gandon</lastname>
+		<firstname>Fabien</firstname>
+		<message></message>
+		<priorite>1</priorite>
+	</user>
+	<user>
+		<id>flimpens</id>
+		<login>flimpens</login>
+		<password>admin</password>
+		<lastname>Limpens</lastname>
+		<firstname>Freddy</firstname>
+		<message>Guillaume Erétéo invité M/Mme/Melle Bruno</message>
+		<priorite>4</priorite>
+	</user>
+	<user>
+		<id>gereteo</id>
+		<login>gereteo</login>
+		<password>admin</password>
+		<lastname>Erétéo</lastname>
+		<firstname>Guillaume</firstname>
+		<message></message>
+		<priorite>3</priorite>
+	</user>
+	<user>
+		<id>mbuffa</id>
+		<login>mbuffa</login>
+		<password>admin</password>
+		<lastname>Buffa</lastname>
+		<firstname>Michel</firstname>
+		<message></message>
+		<priorite>2</priorite>
+	</user>
+	<user>
+		<id>Bruno</id>
+		<login>Bruno</login>
+		<password>admin</password>
+		<lastname>Bruno</lastname>
+		<firstname>Monsieur</firstname>
+		<message></message>
+		<priorite>-1</priorite>
+	</user>
+</users>

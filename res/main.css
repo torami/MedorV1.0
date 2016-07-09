@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+
+body{
+	font-family:"Verdana";
+	font-size:0.8em;
+	color:#333;
+	width:60%;
+	margin:auto;
+	padding:auto;
+}
+h1{
+	font-size:1.6em;
+	color:#330;	
+}
+h2{
+	font-size:1.3em;
+	color:#331;	
+}
+h3{
+	font-size:1.1em;
+	font-weight:bold;
+	color:#663;	
+}
+a,a:active,a:visited{
+	color:#996;
+	padding:1px;
+	margin:1px;
+}
+a:hover{
+	background:#996;
+	color:white;
+}
+
+form {
+}
+
+/* tous les <div> dans la balise <form>*/ 
+form div{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 5px;
+}
+
+/* fieldset , legend */
+fieldset {
+	border: #FFCC66 1px solid;
+}
+
+/* tous les <legend> dans un <fieldset> lui même compris dans un <form> */
+legend {
+	padding: 0 10px;
+	font-size: 1.2em;
+	color: #FFCC66;
+}
+
+
+/* Label */
+label {
+	display: inline;
+	float: left;
+	text-align: left;
+	min-width: 100px;
+}
+
+label:hover {
+	cursor:pointer;
+}
+
+.nostyle{
+	background: none;
+}
+
+/* Input */
+input, select {
+	margin-left: 1%;
+	width: 80%;
+	border: #CCC 1px solid;
+}
+
+input:hover, select:hover, input:focus, select:focus {
+	border: #999 1px solid;
+	background-color: lightgray;
+}
+
+/* button submit */
+input[type="submit"] {
+	border: #DDEEFF 1px solid;
+	width: 27%;
+/*	float:right;*/
+}
+
+input[type="submit"]:hover {
+	background-color: #333;
+	color:white;
+	cursor: pointer;
+}
+
+input[type="reset"] {
+	border: #DDEEFF 1px solid;
+	width: 27%;
+}
+
+input[type="reset"]:hover {
+	background-color: #E6484D;
+	cursor: pointer;
+}
+#navbar{
+	background-color:#666;
+	color:white;
+	font-size:0.8em;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:3px;
+	text-align: right;
+}
+#navbar a,
+#navbar a:active,
+#navbar a:visited{
+	color:white;
+}
